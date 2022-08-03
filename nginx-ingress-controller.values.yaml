@@ -1,0 +1,2 @@
+# helm repo add bitnami https://charts.bitnami.com/bitnami
+# helm install --create-namespace -namespace nginx-ingress-controller --wait --values nginx-ingress-controller.values.yaml nginx-ingress-controller bitnami/nginx-ingress-controller
