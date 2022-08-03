@@ -8,5 +8,6 @@ helm install \
   --create-namespace \
   --namespace "$NAMESPACE" \
   --values ./sftpgo.values.yaml \
+  --wait
   "$NAMESPACE" \
   skm/sftpgo
