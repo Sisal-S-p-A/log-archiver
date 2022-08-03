@@ -4,7 +4,13 @@
 image:
   repository: drakkan/sftpgo
   tag: v2
-  
+
+sftpd:
+  enabled: false
+ftpd:
+  enabled: true
+webdavd:
+  enabled: false
   
 config:
   common:
