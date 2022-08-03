@@ -1,0 +1,6 @@
+# helm repo add skm https://charts.sagikazarmark.dev
+# helm install --create-namespace --namespace log-archiver --values ./sftpgo.values.yaml log-archiver skm/sftpgo
+
+image:
+  repository: drakkan/sftpgo
+  tag: v2
