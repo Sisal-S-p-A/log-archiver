@@ -4,3 +4,8 @@
 image:
   repository: drakkan/sftpgo
   tag: v2
+  
+  
+config:
+  common:
+    upload_mode: 1
